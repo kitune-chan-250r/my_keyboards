@@ -1,2 +1,6 @@
 # my_keyboards
-my keyboards
+
+## первый
+・34key、ロシア語で1番目を表す言葉
+
+
