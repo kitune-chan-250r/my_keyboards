@@ -1,4 +1,4 @@
-update=2019/12/19 16:27:58
+update=2019 December 24, Tuesday 16:04:56
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=First_keyboard30.net
+LastNetListRead=VTOROY.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

@@ -957,8 +957,8 @@ F 5 "V" H 5000 6950 50  0001 L CNN "Spice_Primitive"
 	1    5000 6950
 	0    1    1    0   
 $EndComp
-Text Notes 10110 7040 2    394  Italic 79
-первый\n
+Text Notes 9760 7080 2    394  Italic 79
+First\n
 Text GLabel 5000 1400 1    50   Input ~ 0
 col0
 Text GLabel 6000 1400 1    50   Input ~ 0
