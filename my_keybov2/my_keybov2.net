@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /Users/hisuinekoo/Documents/my_keybov2/my_keybov2.sch)
-    (date "2019 December 18, Wednesday 11:36:55")
+    (source /Users/hisuinekoo/Documents/my_keyboards/my_keybov2/my_keybov2.sch)
+    (date "2019 December 24, Tuesday 10:44:46")
     (tool "Eeschema (5.1.5-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -40,7 +40,7 @@
       (fields
         (field (name Spice_Netlist_Enabled) Y)
         (field (name Spice_Primitive) V))
-      (libsource (lib Simulation_SPICE) (part DIODE) (description "Diode, anode on pin 1, for simulation only!"))
+      (libsource (lib my_keybov2-rescue) (part DIODE-Simulation_SPICE) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DFA1BA6))
     (comp (ref SW6)
@@ -56,7 +56,7 @@
       (fields
         (field (name Spice_Netlist_Enabled) Y)
         (field (name Spice_Primitive) V))
-      (libsource (lib Simulation_SPICE) (part DIODE) (description "Diode, anode on pin 1, for simulation only!"))
+      (libsource (lib my_keybov2-rescue) (part DIODE-Simulation_SPICE) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DFA6D29))
     (comp (ref SW3)
@@ -72,7 +72,7 @@
       (fields
         (field (name Spice_Netlist_Enabled) Y)
         (field (name Spice_Primitive) V))
-      (libsource (lib Simulation_SPICE) (part DIODE) (description "Diode, anode on pin 1, for simulation only!"))
+      (libsource (lib my_keybov2-rescue) (part DIODE-Simulation_SPICE) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DFA8289))
     (comp (ref SW7)
@@ -88,7 +88,7 @@
       (fields
         (field (name Spice_Netlist_Enabled) Y)
         (field (name Spice_Primitive) V))
-      (libsource (lib Simulation_SPICE) (part DIODE) (description "Diode, anode on pin 1, for simulation only!"))
+      (libsource (lib my_keybov2-rescue) (part DIODE-Simulation_SPICE) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DFA9417))
     (comp (ref SW4)
@@ -104,7 +104,7 @@
       (fields
         (field (name Spice_Netlist_Enabled) Y)
         (field (name Spice_Primitive) V))
-      (libsource (lib Simulation_SPICE) (part DIODE) (description "Diode, anode on pin 1, for simulation only!"))
+      (libsource (lib my_keybov2-rescue) (part DIODE-Simulation_SPICE) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DFAA063))
     (comp (ref SW8)
@@ -120,7 +120,7 @@
       (fields
         (field (name Spice_Netlist_Enabled) Y)
         (field (name Spice_Primitive) V))
-      (libsource (lib Simulation_SPICE) (part DIODE) (description "Diode, anode on pin 1, for simulation only!"))
+      (libsource (lib my_keybov2-rescue) (part DIODE-Simulation_SPICE) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DFAB3D6))
     (comp (ref SW5)
@@ -136,21 +136,10 @@
       (fields
         (field (name Spice_Netlist_Enabled) Y)
         (field (name Spice_Primitive) V))
-      (libsource (lib Simulation_SPICE) (part DIODE) (description "Diode, anode on pin 1, for simulation only!"))
+      (libsource (lib my_keybov2-rescue) (part DIODE-Simulation_SPICE) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DFAC193)))
   (libparts
-    (libpart (lib Simulation_SPICE) (part DIODE)
-      (description "Diode, anode on pin 1, for simulation only!")
-      (docs ~)
-      (fields
-        (field (name Reference) D)
-        (field (name Value) DIODE)
-        (field (name Spice_Netlist_Enabled) Y)
-        (field (name Spice_Primitive) V))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name K) (type passive))))
     (libpart (lib kbd) (part ProMicro)
       (fields
         (field (name Reference) U)
@@ -186,12 +175,21 @@
         (field (name Value) SW_PUSH))
       (pins
         (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive)))))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib my_keybov2-rescue) (part DIODE-Simulation_SPICE)
+      (fields
+        (field (name Reference) D)
+        (field (name Value) DIODE-Simulation_SPICE)
+        (field (name Spice_Netlist_Enabled) Y)
+        (field (name Spice_Primitive) V))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive)))))
   (libraries
-    (library (logical Simulation_SPICE)
-      (uri "/Library/Application Support/kicad/library/Simulation_SPICE.lib"))
     (library (logical kbd)
-      (uri /Users/hisuinekoo/Downloads/kbd-master/library/kbd.lib)))
+      (uri /Users/hisuinekoo/Downloads/kbd-master/library/kbd.lib))
+    (library (logical my_keybov2-rescue)
+      (uri /Users/hisuinekoo/Documents/my_keyboards/my_keybov2/my_keybov2-rescue.lib)))
   (nets
     (net (code 1) (name "Net-(U1-Pad1)")
       (node (ref U1) (pin 1)))
