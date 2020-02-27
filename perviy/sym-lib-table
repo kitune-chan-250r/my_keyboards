@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name First_keyboard30-rescue)(type Legacy)(uri ${KIPRJMOD}/First_keyboard30-rescue.lib)(options "")(descr ""))
+)

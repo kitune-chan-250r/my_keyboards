@@ -1,0 +1,1242 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L kbd:ProMicro U1
+U 1 1 5DFB19D6
+P 2650 2740
+F 0 "U1" H 2650 3777 60  0000 C CNN
+F 1 "ProMicro" H 2650 3671 60  0000 C CNN
+F 2 "kbd:ProMicro_v3" H 2750 1690 60  0001 C CNN
+F 3 "" H 2750 1690 60  0000 C CNN
+	1    2650 2740
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5DFB3567
+P 3350 2090
+F 0 "#PWR0101" H 3350 1840 50  0001 C CNN
+F 1 "GND" V 3355 1962 50  0000 R CNN
+F 2 "" H 3350 2090 50  0001 C CNN
+F 3 "" H 3350 2090 50  0001 C CNN
+	1    3350 2090
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DFB5AE3
+P 1620 2460
+F 0 "#PWR0102" H 1620 2210 50  0001 C CNN
+F 1 "GND" H 1625 2287 50  0000 C CNN
+F 2 "" H 1620 2460 50  0001 C CNN
+F 3 "" H 1620 2460 50  0001 C CNN
+	1    1620 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5DFB6EB7
+P 1540 990
+F 0 "#PWR0103" H 1540 740 50  0001 C CNN
+F 1 "GND" H 1545 817 50  0000 C CNN
+F 2 "" H 1540 990 50  0001 C CNN
+F 3 "" H 1540 990 50  0001 C CNN
+	1    1540 990 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5DFB8C88
+P 1170 1000
+F 0 "#PWR0104" H 1170 850 50  0001 C CNN
+F 1 "VCC" H 1187 1173 50  0000 C CNN
+F 2 "" H 1170 1000 50  0001 C CNN
+F 3 "" H 1170 1000 50  0001 C CNN
+	1    1170 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 5DFB9DFF
+P 3350 2290
+F 0 "#PWR0105" H 3350 2140 50  0001 C CNN
+F 1 "VCC" V 3367 2418 50  0000 L CNN
+F 2 "" H 3350 2290 50  0001 C CNN
+F 3 "" H 3350 2290 50  0001 C CNN
+	1    3350 2290
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1620 2460 1620 2290
+Wire Wire Line
+	1620 2190 1950 2190
+Wire Wire Line
+	1950 2290 1620 2290
+Connection ~ 1620 2290
+Wire Wire Line
+	1620 2290 1620 2190
+NoConn ~ 3350 1990
+NoConn ~ 1950 2390
+NoConn ~ 1950 2490
+NoConn ~ 1950 2090
+NoConn ~ 1950 1990
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5DFBBF71
+P 1540 990
+F 0 "#FLG0101" H 1540 1065 50  0001 C CNN
+F 1 "PWR_FLAG" H 1540 1163 50  0000 C CNN
+F 2 "" H 1540 990 50  0001 C CNN
+F 3 "~" H 1540 990 50  0001 C CNN
+	1    1540 990 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5DFBCECD
+P 1170 1000
+F 0 "#FLG0102" H 1170 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1170 1173 50  0000 C CNN
+F 2 "" H 1170 1000 50  0001 C CNN
+F 3 "~" H 1170 1000 50  0001 C CNN
+	1    1170 1000
+	-1   0    0    1   
+$EndComp
+Text GLabel 3350 2190 2    50   Input ~ 0
+reset
+Text GLabel 2280 1190 0    50   Input ~ 0
+reset
+$Comp
+L kbd:SW_PUSH SW1
+U 1 1 5DFC0F8E
+P 2580 1190
+F 0 "SW1" H 2580 1445 50  0000 C CNN
+F 1 "RESET_SW" H 2580 1354 50  0000 C CNN
+F 2 "kbd:ResetSW" H 2580 1190 50  0001 C CNN
+F 3 "" H 2580 1190 50  0000 C CNN
+	1    2580 1190
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5DFC20F6
+P 2880 1190
+F 0 "#PWR0106" H 2880 940 50  0001 C CNN
+F 1 "GND" H 2885 1017 50  0000 C CNN
+F 2 "" H 2880 1190 50  0001 C CNN
+F 3 "" H 2880 1190 50  0001 C CNN
+	1    2880 1190
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW2
+U 1 1 5DFC2CF9
+P 5300 2000
+F 0 "SW2" H 5300 2255 50  0000 C CNN
+F 1 "KEY_SW" H 5300 2164 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5300 2000 50  0001 C CNN
+F 3 "" H 5300 2000 50  0000 C CNN
+	1    5300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D1
+U 1 1 5DFC3763
+P 5600 2150
+F 0 "D1" V 5554 2230 50  0000 L CNN
+F 1 "DIODE" V 5645 2230 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 5600 2150 50  0001 C CNN
+F 3 "~" H 5600 2150 50  0001 C CNN
+F 4 "Y" H 5600 2150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 5600 2150 50  0001 L CNN "Spice_Primitive"
+	1    5600 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW14
+U 1 1 5DFC5CD6
+P 5300 3600
+F 0 "SW14" H 5300 3855 50  0000 C CNN
+F 1 "KEY_SW" H 5300 3764 50  0000 C CNN
+F 2 "kbd:CherryMX_1u" H 5300 3600 50  0001 C CNN
+F 3 "" H 5300 3600 50  0000 C CNN
+	1    5300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D13
+U 1 1 5DFC61FE
+P 5600 3750
+F 0 "D13" V 5554 3830 50  0000 L CNN
+F 1 "DIODE" V 5645 3830 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 5600 3750 50  0001 C CNN
+F 3 "~" H 5600 3750 50  0001 C CNN
+F 4 "Y" H 5600 3750 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 5600 3750 50  0001 L CNN "Spice_Primitive"
+	1    5600 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW8
+U 1 1 5DFC6C9B
+P 5300 2800
+F 0 "SW8" H 5300 3055 50  0000 C CNN
+F 1 "KEY_SW" H 5300 2964 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5300 2800 50  0001 C CNN
+F 3 "" H 5300 2800 50  0000 C CNN
+	1    5300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D7
+U 1 1 5DFC73A7
+P 5600 2950
+F 0 "D7" V 5554 3030 50  0000 L CNN
+F 1 "DIODE" V 5645 3030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 5600 2950 50  0001 C CNN
+F 3 "~" H 5600 2950 50  0001 C CNN
+F 4 "Y" H 5600 2950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 5600 2950 50  0001 L CNN "Spice_Primitive"
+	1    5600 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW3
+U 1 1 5DFD4E61
+P 6300 2000
+F 0 "SW3" H 6300 2255 50  0000 C CNN
+F 1 "KEY_SW" H 6300 2164 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 6300 2000 50  0001 C CNN
+F 3 "" H 6300 2000 50  0000 C CNN
+	1    6300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW9
+U 1 1 5DFD5A2B
+P 6300 2800
+F 0 "SW9" H 6300 3055 50  0000 C CNN
+F 1 "KEY_SW" H 6300 2964 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 6300 2800 50  0001 C CNN
+F 3 "" H 6300 2800 50  0000 C CNN
+	1    6300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW15
+U 1 1 5DFD6709
+P 6300 3600
+F 0 "SW15" H 6300 3855 50  0000 C CNN
+F 1 "KEY_SW" H 6300 3764 50  0000 C CNN
+F 2 "kbd:CherryMX_1u" H 6300 3600 50  0001 C CNN
+F 3 "" H 6300 3600 50  0000 C CNN
+	1    6300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D2
+U 1 1 5DFD7E87
+P 6600 2150
+F 0 "D2" V 6554 2230 50  0000 L CNN
+F 1 "DIODE" V 6645 2230 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 6600 2150 50  0001 C CNN
+F 3 "~" H 6600 2150 50  0001 C CNN
+F 4 "Y" H 6600 2150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6600 2150 50  0001 L CNN "Spice_Primitive"
+	1    6600 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D8
+U 1 1 5DFD8991
+P 6600 2950
+F 0 "D8" V 6554 3030 50  0000 L CNN
+F 1 "DIODE" V 6645 3030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 6600 2950 50  0001 C CNN
+F 3 "~" H 6600 2950 50  0001 C CNN
+F 4 "Y" H 6600 2950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6600 2950 50  0001 L CNN "Spice_Primitive"
+	1    6600 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D14
+U 1 1 5DFD962D
+P 6600 3750
+F 0 "D14" V 6554 3830 50  0000 L CNN
+F 1 "DIODE" V 6645 3830 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 6600 3750 50  0001 C CNN
+F 3 "~" H 6600 3750 50  0001 C CNN
+F 4 "Y" H 6600 3750 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6600 3750 50  0001 L CNN "Spice_Primitive"
+	1    6600 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW4
+U 1 1 5DFDA1F4
+P 7300 2000
+F 0 "SW4" H 7300 2255 50  0000 C CNN
+F 1 "KEY_SW" H 7300 2164 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 7300 2000 50  0001 C CNN
+F 3 "" H 7300 2000 50  0000 C CNN
+	1    7300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW10
+U 1 1 5DFDAE8E
+P 7300 2800
+F 0 "SW10" H 7300 3055 50  0000 C CNN
+F 1 "KEY_SW" H 7300 2964 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 7300 2800 50  0001 C CNN
+F 3 "" H 7300 2800 50  0000 C CNN
+	1    7300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW16
+U 1 1 5DFDB5F8
+P 7300 3600
+F 0 "SW16" H 7300 3855 50  0000 C CNN
+F 1 "KEY_SW" H 7300 3764 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 7300 3600 50  0001 C CNN
+F 3 "" H 7300 3600 50  0000 C CNN
+	1    7300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D3
+U 1 1 5DFDBEF5
+P 7600 2150
+F 0 "D3" V 7554 2230 50  0000 L CNN
+F 1 "DIODE" V 7645 2230 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 7600 2150 50  0001 C CNN
+F 3 "~" H 7600 2150 50  0001 C CNN
+F 4 "Y" H 7600 2150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 7600 2150 50  0001 L CNN "Spice_Primitive"
+	1    7600 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D9
+U 1 1 5DFDC957
+P 7600 2950
+F 0 "D9" V 7554 3030 50  0000 L CNN
+F 1 "DIODE" V 7645 3030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 7600 2950 50  0001 C CNN
+F 3 "~" H 7600 2950 50  0001 C CNN
+F 4 "Y" H 7600 2950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 7600 2950 50  0001 L CNN "Spice_Primitive"
+	1    7600 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D15
+U 1 1 5DFDD14A
+P 7600 3750
+F 0 "D15" V 7554 3830 50  0000 L CNN
+F 1 "DIODE" V 7645 3830 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 7600 3750 50  0001 C CNN
+F 3 "~" H 7600 3750 50  0001 C CNN
+F 4 "Y" H 7600 3750 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 7600 3750 50  0001 L CNN "Spice_Primitive"
+	1    7600 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW5
+U 1 1 5DFE3BE7
+P 8300 2000
+F 0 "SW5" H 8300 2255 50  0000 C CNN
+F 1 "KEY_SW" H 8300 2164 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 8300 2000 50  0001 C CNN
+F 3 "" H 8300 2000 50  0000 C CNN
+	1    8300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D4
+U 1 1 5DFE3BEF
+P 8600 2150
+F 0 "D4" V 8554 2230 50  0000 L CNN
+F 1 "DIODE" V 8645 2230 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 8600 2150 50  0001 C CNN
+F 3 "~" H 8600 2150 50  0001 C CNN
+F 4 "Y" H 8600 2150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8600 2150 50  0001 L CNN "Spice_Primitive"
+	1    8600 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW6
+U 1 1 5DFE3BF5
+P 9300 2000
+F 0 "SW6" H 9300 2255 50  0000 C CNN
+F 1 "KEY_SW" H 9300 2164 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 9300 2000 50  0001 C CNN
+F 3 "" H 9300 2000 50  0000 C CNN
+	1    9300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D5
+U 1 1 5DFE3BFD
+P 9600 2150
+F 0 "D5" V 9554 2230 50  0000 L CNN
+F 1 "DIODE" V 9645 2230 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 9600 2150 50  0001 C CNN
+F 3 "~" H 9600 2150 50  0001 C CNN
+F 4 "Y" H 9600 2150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 9600 2150 50  0001 L CNN "Spice_Primitive"
+	1    9600 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW7
+U 1 1 5DFE3C03
+P 10300 2000
+F 0 "SW7" H 10300 2255 50  0000 C CNN
+F 1 "KEY_SW" H 10300 2164 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 10300 2000 50  0001 C CNN
+F 3 "" H 10300 2000 50  0000 C CNN
+	1    10300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D6
+U 1 1 5DFE3C0B
+P 10600 2150
+F 0 "D6" V 10554 2230 50  0000 L CNN
+F 1 "DIODE" V 10645 2230 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 10600 2150 50  0001 C CNN
+F 3 "~" H 10600 2150 50  0001 C CNN
+F 4 "Y" H 10600 2150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 10600 2150 50  0001 L CNN "Spice_Primitive"
+	1    10600 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW11
+U 1 1 5DFE771C
+P 8300 2800
+F 0 "SW11" H 8300 3055 50  0000 C CNN
+F 1 "KEY_SW" H 8300 2964 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 8300 2800 50  0001 C CNN
+F 3 "" H 8300 2800 50  0000 C CNN
+	1    8300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D10
+U 1 1 5DFE7724
+P 8600 2950
+F 0 "D10" V 8554 3030 50  0000 L CNN
+F 1 "DIODE" V 8645 3030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 8600 2950 50  0001 C CNN
+F 3 "~" H 8600 2950 50  0001 C CNN
+F 4 "Y" H 8600 2950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8600 2950 50  0001 L CNN "Spice_Primitive"
+	1    8600 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW12
+U 1 1 5DFE772A
+P 9300 2800
+F 0 "SW12" H 9300 3055 50  0000 C CNN
+F 1 "KEY_SW" H 9300 2964 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 9300 2800 50  0001 C CNN
+F 3 "" H 9300 2800 50  0000 C CNN
+	1    9300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D11
+U 1 1 5DFE7732
+P 9600 2950
+F 0 "D11" V 9554 3030 50  0000 L CNN
+F 1 "DIODE" V 9645 3030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 9600 2950 50  0001 C CNN
+F 3 "~" H 9600 2950 50  0001 C CNN
+F 4 "Y" H 9600 2950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 9600 2950 50  0001 L CNN "Spice_Primitive"
+	1    9600 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW13
+U 1 1 5DFE7738
+P 10300 2800
+F 0 "SW13" H 10300 3055 50  0000 C CNN
+F 1 "KEY_SW" H 10300 2964 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 10300 2800 50  0001 C CNN
+F 3 "" H 10300 2800 50  0000 C CNN
+	1    10300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D12
+U 1 1 5DFE7740
+P 10600 2950
+F 0 "D12" V 10554 3030 50  0000 L CNN
+F 1 "DIODE" V 10645 3030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 10600 2950 50  0001 C CNN
+F 3 "~" H 10600 2950 50  0001 C CNN
+F 4 "Y" H 10600 2950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 10600 2950 50  0001 L CNN "Spice_Primitive"
+	1    10600 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW17
+U 1 1 5DFEBFE9
+P 8300 3600
+F 0 "SW17" H 8300 3855 50  0000 C CNN
+F 1 "KEY_SW" H 8300 3764 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 8300 3600 50  0001 C CNN
+F 3 "" H 8300 3600 50  0000 C CNN
+	1    8300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D16
+U 1 1 5DFEBFF1
+P 8600 3750
+F 0 "D16" V 8554 3830 50  0000 L CNN
+F 1 "DIODE" V 8645 3830 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 8600 3750 50  0001 C CNN
+F 3 "~" H 8600 3750 50  0001 C CNN
+F 4 "Y" H 8600 3750 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8600 3750 50  0001 L CNN "Spice_Primitive"
+	1    8600 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW18
+U 1 1 5DFEBFF7
+P 9300 3600
+F 0 "SW18" H 9300 3855 50  0000 C CNN
+F 1 "KEY_SW" H 9300 3764 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 9300 3600 50  0001 C CNN
+F 3 "" H 9300 3600 50  0000 C CNN
+	1    9300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D17
+U 1 1 5DFEBFFF
+P 9600 3750
+F 0 "D17" V 9554 3830 50  0000 L CNN
+F 1 "DIODE" V 9645 3830 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 9600 3750 50  0001 C CNN
+F 3 "~" H 9600 3750 50  0001 C CNN
+F 4 "Y" H 9600 3750 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 9600 3750 50  0001 L CNN "Spice_Primitive"
+	1    9600 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW19
+U 1 1 5DFEC005
+P 10300 3600
+F 0 "SW19" H 10300 3855 50  0000 C CNN
+F 1 "KEY_SW" H 10300 3764 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 10300 3600 50  0001 C CNN
+F 3 "" H 10300 3600 50  0000 C CNN
+	1    10300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D18
+U 1 1 5DFEC00D
+P 10600 3750
+F 0 "D18" V 10554 3830 50  0000 L CNN
+F 1 "DIODE" V 10645 3830 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 10600 3750 50  0001 C CNN
+F 3 "~" H 10600 3750 50  0001 C CNN
+F 4 "Y" H 10600 3750 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 10600 3750 50  0001 L CNN "Spice_Primitive"
+	1    10600 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW20
+U 1 1 5E01D682
+P 1700 5200
+F 0 "SW20" H 1700 5455 50  0000 C CNN
+F 1 "KEY_SW" H 1700 5364 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 1700 5200 50  0001 C CNN
+F 3 "" H 1700 5200 50  0000 C CNN
+	1    1700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D19
+U 1 1 5E01D68A
+P 2000 5350
+F 0 "D19" V 1954 5430 50  0000 L CNN
+F 1 "DIODE" V 2045 5430 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 2000 5350 50  0001 C CNN
+F 3 "~" H 2000 5350 50  0001 C CNN
+F 4 "Y" H 2000 5350 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 2000 5350 50  0001 L CNN "Spice_Primitive"
+	1    2000 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW32
+U 1 1 5E01D690
+P 1700 6800
+F 0 "SW32" H 1700 7055 50  0000 C CNN
+F 1 "KEY_SW" H 1700 6964 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 1700 6800 50  0001 C CNN
+F 3 "" H 1700 6800 50  0000 C CNN
+	1    1700 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D31
+U 1 1 5E01D698
+P 2000 6950
+F 0 "D31" V 1954 7030 50  0000 L CNN
+F 1 "DIODE" V 2045 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 2000 6950 50  0001 C CNN
+F 3 "~" H 2000 6950 50  0001 C CNN
+F 4 "Y" H 2000 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 2000 6950 50  0001 L CNN "Spice_Primitive"
+	1    2000 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW26
+U 1 1 5E01D69E
+P 1700 6000
+F 0 "SW26" H 1700 6255 50  0000 C CNN
+F 1 "KEY_SW" H 1700 6164 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 1700 6000 50  0001 C CNN
+F 3 "" H 1700 6000 50  0000 C CNN
+	1    1700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D25
+U 1 1 5E01D6A6
+P 2000 6150
+F 0 "D25" V 1954 6230 50  0000 L CNN
+F 1 "DIODE" V 2045 6230 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 2000 6150 50  0001 C CNN
+F 3 "~" H 2000 6150 50  0001 C CNN
+F 4 "Y" H 2000 6150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 2000 6150 50  0001 L CNN "Spice_Primitive"
+	1    2000 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW21
+U 1 1 5E01D6AC
+P 2700 5200
+F 0 "SW21" H 2700 5455 50  0000 C CNN
+F 1 "KEY_SW" H 2700 5364 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2700 5200 50  0001 C CNN
+F 3 "" H 2700 5200 50  0000 C CNN
+	1    2700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW27
+U 1 1 5E01D6B2
+P 2700 6000
+F 0 "SW27" H 2700 6255 50  0000 C CNN
+F 1 "KEY_SW" H 2700 6164 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2700 6000 50  0001 C CNN
+F 3 "" H 2700 6000 50  0000 C CNN
+	1    2700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW33
+U 1 1 5E01D6B8
+P 2700 6800
+F 0 "SW33" H 2700 7055 50  0000 C CNN
+F 1 "KEY_SW" H 2700 6964 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2700 6800 50  0001 C CNN
+F 3 "" H 2700 6800 50  0000 C CNN
+	1    2700 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D20
+U 1 1 5E01D6C0
+P 3000 5350
+F 0 "D20" V 2954 5430 50  0000 L CNN
+F 1 "DIODE" V 3045 5430 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 3000 5350 50  0001 C CNN
+F 3 "~" H 3000 5350 50  0001 C CNN
+F 4 "Y" H 3000 5350 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 3000 5350 50  0001 L CNN "Spice_Primitive"
+	1    3000 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D26
+U 1 1 5E01D6C8
+P 3000 6150
+F 0 "D26" V 2954 6230 50  0000 L CNN
+F 1 "DIODE" V 3045 6230 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 3000 6150 50  0001 C CNN
+F 3 "~" H 3000 6150 50  0001 C CNN
+F 4 "Y" H 3000 6150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 3000 6150 50  0001 L CNN "Spice_Primitive"
+	1    3000 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D32
+U 1 1 5E01D6D0
+P 3000 6950
+F 0 "D32" V 2954 7030 50  0000 L CNN
+F 1 "DIODE" V 3045 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 3000 6950 50  0001 C CNN
+F 3 "~" H 3000 6950 50  0001 C CNN
+F 4 "Y" H 3000 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 3000 6950 50  0001 L CNN "Spice_Primitive"
+	1    3000 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW22
+U 1 1 5E01D6D6
+P 3700 5200
+F 0 "SW22" H 3700 5455 50  0000 C CNN
+F 1 "KEY_SW" H 3700 5364 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 3700 5200 50  0001 C CNN
+F 3 "" H 3700 5200 50  0000 C CNN
+	1    3700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW28
+U 1 1 5E01D6DC
+P 3700 6000
+F 0 "SW28" H 3700 6255 50  0000 C CNN
+F 1 "KEY_SW" H 3700 6164 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 3700 6000 50  0001 C CNN
+F 3 "" H 3700 6000 50  0000 C CNN
+	1    3700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW34
+U 1 1 5E01D6E2
+P 3700 6800
+F 0 "SW34" H 3700 7055 50  0000 C CNN
+F 1 "KEY_SW" H 3700 6964 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 3700 6800 50  0001 C CNN
+F 3 "" H 3700 6800 50  0000 C CNN
+	1    3700 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D21
+U 1 1 5E01D6EA
+P 4000 5350
+F 0 "D21" V 3954 5430 50  0000 L CNN
+F 1 "DIODE" V 4045 5430 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 4000 5350 50  0001 C CNN
+F 3 "~" H 4000 5350 50  0001 C CNN
+F 4 "Y" H 4000 5350 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 4000 5350 50  0001 L CNN "Spice_Primitive"
+	1    4000 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D27
+U 1 1 5E01D6F2
+P 4000 6150
+F 0 "D27" V 3954 6230 50  0000 L CNN
+F 1 "DIODE" V 4045 6230 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 4000 6150 50  0001 C CNN
+F 3 "~" H 4000 6150 50  0001 C CNN
+F 4 "Y" H 4000 6150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 4000 6150 50  0001 L CNN "Spice_Primitive"
+	1    4000 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D33
+U 1 1 5E01D6FA
+P 4000 6950
+F 0 "D33" V 3954 7030 50  0000 L CNN
+F 1 "DIODE" V 4045 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 4000 6950 50  0001 C CNN
+F 3 "~" H 4000 6950 50  0001 C CNN
+F 4 "Y" H 4000 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 4000 6950 50  0001 L CNN "Spice_Primitive"
+	1    4000 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW23
+U 1 1 5E01D700
+P 4700 5200
+F 0 "SW23" H 4700 5455 50  0000 C CNN
+F 1 "KEY_SW" H 4700 5364 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 4700 5200 50  0001 C CNN
+F 3 "" H 4700 5200 50  0000 C CNN
+	1    4700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D22
+U 1 1 5E01D708
+P 5000 5350
+F 0 "D22" V 4954 5430 50  0000 L CNN
+F 1 "DIODE" V 5045 5430 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 5000 5350 50  0001 C CNN
+F 3 "~" H 5000 5350 50  0001 C CNN
+F 4 "Y" H 5000 5350 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 5000 5350 50  0001 L CNN "Spice_Primitive"
+	1    5000 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW24
+U 1 1 5E01D70E
+P 5700 5200
+F 0 "SW24" H 5700 5455 50  0000 C CNN
+F 1 "KEY_SW" H 5700 5364 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5700 5200 50  0001 C CNN
+F 3 "" H 5700 5200 50  0000 C CNN
+	1    5700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D23
+U 1 1 5E01D716
+P 6000 5350
+F 0 "D23" V 5954 5430 50  0000 L CNN
+F 1 "DIODE" V 6045 5430 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 6000 5350 50  0001 C CNN
+F 3 "~" H 6000 5350 50  0001 C CNN
+F 4 "Y" H 6000 5350 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6000 5350 50  0001 L CNN "Spice_Primitive"
+	1    6000 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW25
+U 1 1 5E01D71C
+P 6700 5200
+F 0 "SW25" H 6700 5455 50  0000 C CNN
+F 1 "KEY_SW" H 6700 5364 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 6700 5200 50  0001 C CNN
+F 3 "" H 6700 5200 50  0000 C CNN
+	1    6700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D24
+U 1 1 5E01D724
+P 7000 5350
+F 0 "D24" V 6954 5430 50  0000 L CNN
+F 1 "DIODE" V 7045 5430 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 7000 5350 50  0001 C CNN
+F 3 "~" H 7000 5350 50  0001 C CNN
+F 4 "Y" H 7000 5350 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 7000 5350 50  0001 L CNN "Spice_Primitive"
+	1    7000 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW29
+U 1 1 5E01D72A
+P 4700 6000
+F 0 "SW29" H 4700 6255 50  0000 C CNN
+F 1 "KEY_SW" H 4700 6164 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 4700 6000 50  0001 C CNN
+F 3 "" H 4700 6000 50  0000 C CNN
+	1    4700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D28
+U 1 1 5E01D732
+P 5000 6150
+F 0 "D28" V 4954 6230 50  0000 L CNN
+F 1 "DIODE" V 5045 6230 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 5000 6150 50  0001 C CNN
+F 3 "~" H 5000 6150 50  0001 C CNN
+F 4 "Y" H 5000 6150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 5000 6150 50  0001 L CNN "Spice_Primitive"
+	1    5000 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW30
+U 1 1 5E01D738
+P 5700 6000
+F 0 "SW30" H 5700 6255 50  0000 C CNN
+F 1 "KEY_SW" H 5700 6164 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5700 6000 50  0001 C CNN
+F 3 "" H 5700 6000 50  0000 C CNN
+	1    5700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D29
+U 1 1 5E01D740
+P 6000 6150
+F 0 "D29" V 5954 6230 50  0000 L CNN
+F 1 "DIODE" V 6045 6230 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 6000 6150 50  0001 C CNN
+F 3 "~" H 6000 6150 50  0001 C CNN
+F 4 "Y" H 6000 6150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6000 6150 50  0001 L CNN "Spice_Primitive"
+	1    6000 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW31
+U 1 1 5E01D746
+P 6700 6000
+F 0 "SW31" H 6700 6255 50  0000 C CNN
+F 1 "KEY_SW" H 6700 6164 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 6700 6000 50  0001 C CNN
+F 3 "" H 6700 6000 50  0000 C CNN
+	1    6700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D30
+U 1 1 5E01D74E
+P 7000 6150
+F 0 "D30" V 6954 6230 50  0000 L CNN
+F 1 "DIODE" V 7045 6230 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 7000 6150 50  0001 C CNN
+F 3 "~" H 7000 6150 50  0001 C CNN
+F 4 "Y" H 7000 6150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 7000 6150 50  0001 L CNN "Spice_Primitive"
+	1    7000 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW35
+U 1 1 5E01D754
+P 4700 6800
+F 0 "SW35" H 4700 7055 50  0000 C CNN
+F 1 "KEY_SW" H 4700 6964 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 4700 6800 50  0001 C CNN
+F 3 "" H 4700 6800 50  0000 C CNN
+	1    4700 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D34
+U 1 1 5E01D75C
+P 5000 6950
+F 0 "D34" V 4954 7030 50  0000 L CNN
+F 1 "DIODE" V 5045 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 5000 6950 50  0001 C CNN
+F 3 "~" H 5000 6950 50  0001 C CNN
+F 4 "Y" H 5000 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 5000 6950 50  0001 L CNN "Spice_Primitive"
+	1    5000 6950
+	0    1    1    0   
+$EndComp
+Text Notes 10110 7040 2    394  Italic 79
+первый\n
+Text GLabel 5000 1400 1    50   Input ~ 0
+col0
+Text GLabel 6000 1400 1    50   Input ~ 0
+col1
+Text GLabel 7000 1400 1    50   Input ~ 0
+col2
+Text GLabel 8000 1400 1    50   Input ~ 0
+col3
+Text GLabel 9000 1400 1    50   Input ~ 0
+col4
+Text GLabel 10000 1400 1    50   Input ~ 0
+col5
+Text GLabel 1400 4500 1    50   Input ~ 0
+col0
+Text GLabel 2400 4500 1    50   Input ~ 0
+col1
+Text GLabel 3400 4500 1    50   Input ~ 0
+col2
+Text GLabel 4400 4500 1    50   Input ~ 0
+col3
+Text GLabel 5400 4500 1    50   Input ~ 0
+col4
+Text GLabel 6400 4500 1    50   Input ~ 0
+col5
+Text GLabel 3350 2590 2    50   Input ~ 0
+col0
+Text GLabel 3350 2690 2    50   Input ~ 0
+col1
+Text GLabel 3350 2790 2    50   Input ~ 0
+col2
+Text GLabel 3350 2890 2    50   Input ~ 0
+col3
+Text GLabel 3350 2990 2    50   Input ~ 0
+col4
+Text GLabel 3350 3090 2    50   Input ~ 0
+col5
+Text GLabel 4700 2300 0    50   Input ~ 0
+row0
+Text GLabel 4700 3100 0    50   Input ~ 0
+row1
+Text GLabel 4700 3900 0    50   Input ~ 0
+row2
+Text GLabel 1000 5500 0    50   Input ~ 0
+row3
+Text GLabel 1000 6300 0    50   Input ~ 0
+row4
+Text GLabel 1000 7100 0    50   Input ~ 0
+row5
+Text GLabel 1950 2590 0    50   Input ~ 0
+row0
+Text GLabel 1950 2690 0    50   Input ~ 0
+row1
+Text GLabel 1950 2790 0    50   Input ~ 0
+row2
+Text GLabel 1950 2890 0    50   Input ~ 0
+row3
+Text GLabel 1950 3090 0    50   Input ~ 0
+row5
+Text GLabel 1950 2990 0    50   Input ~ 0
+row4
+NoConn ~ 3350 2490
+NoConn ~ 3350 2390
+Wire Wire Line
+	5000 1400 5000 2000
+Connection ~ 5000 2000
+Wire Wire Line
+	5000 2000 5000 2800
+Connection ~ 5000 2800
+Wire Wire Line
+	5000 2800 5000 3600
+Wire Wire Line
+	6000 1400 6000 2000
+Connection ~ 6000 2000
+Wire Wire Line
+	6000 2000 6000 2800
+Connection ~ 6000 2800
+Wire Wire Line
+	6000 2800 6000 3600
+Wire Wire Line
+	7000 1400 7000 2000
+Connection ~ 7000 2000
+Wire Wire Line
+	7000 2000 7000 2800
+Connection ~ 7000 2800
+Wire Wire Line
+	7000 2800 7000 3600
+Wire Wire Line
+	8000 1400 8000 2000
+Connection ~ 8000 2000
+Wire Wire Line
+	8000 2000 8000 2800
+Connection ~ 8000 2800
+Wire Wire Line
+	8000 2800 8000 3600
+Wire Wire Line
+	9000 1400 9000 2000
+Connection ~ 9000 2000
+Wire Wire Line
+	9000 2000 9000 2800
+Connection ~ 9000 2800
+Wire Wire Line
+	9000 2800 9000 3600
+Wire Wire Line
+	10000 1400 10000 2000
+Connection ~ 10000 2000
+Wire Wire Line
+	10000 2000 10000 2800
+Connection ~ 10000 2800
+Wire Wire Line
+	10000 2800 10000 3600
+Wire Wire Line
+	1400 4500 1400 5200
+Connection ~ 1400 5200
+Wire Wire Line
+	1400 5200 1400 6000
+Connection ~ 1400 6000
+Wire Wire Line
+	1400 6000 1400 6800
+Wire Wire Line
+	2400 6800 2400 6000
+Connection ~ 2400 5200
+Wire Wire Line
+	2400 5200 2400 4500
+Connection ~ 2400 6000
+Wire Wire Line
+	2400 6000 2400 5200
+Wire Wire Line
+	3400 4500 3400 5200
+Connection ~ 3400 5200
+Wire Wire Line
+	3400 5200 3400 6000
+Connection ~ 3400 6000
+Wire Wire Line
+	3400 6000 3400 6800
+Wire Wire Line
+	4400 4500 4400 5200
+Connection ~ 4400 5200
+Wire Wire Line
+	4400 5200 4400 6000
+Connection ~ 4400 6000
+Wire Wire Line
+	4400 6000 4400 6800
+Wire Wire Line
+	5400 4500 5400 5200
+Connection ~ 5400 5200
+Wire Wire Line
+	5400 5200 5400 6000
+Wire Wire Line
+	6400 4500 6400 5200
+Connection ~ 6400 5200
+Wire Wire Line
+	6400 5200 6400 6000
+Wire Wire Line
+	4700 2300 5600 2300
+Connection ~ 5600 2300
+Wire Wire Line
+	5600 2300 6600 2300
+Connection ~ 6600 2300
+Wire Wire Line
+	6600 2300 7600 2300
+Connection ~ 7600 2300
+Wire Wire Line
+	7600 2300 8600 2300
+Connection ~ 8600 2300
+Wire Wire Line
+	8600 2300 9600 2300
+Connection ~ 9600 2300
+Wire Wire Line
+	9600 2300 10600 2300
+Wire Wire Line
+	10600 3100 9600 3100
+Connection ~ 5600 3100
+Wire Wire Line
+	5600 3100 4700 3100
+Connection ~ 6600 3100
+Wire Wire Line
+	6600 3100 5600 3100
+Connection ~ 7600 3100
+Wire Wire Line
+	7600 3100 6600 3100
+Connection ~ 8600 3100
+Wire Wire Line
+	8600 3100 7600 3100
+Connection ~ 9600 3100
+Wire Wire Line
+	9600 3100 8600 3100
+Wire Wire Line
+	4700 3900 5600 3900
+Connection ~ 5600 3900
+Wire Wire Line
+	5600 3900 6600 3900
+Connection ~ 6600 3900
+Wire Wire Line
+	6600 3900 7600 3900
+Connection ~ 7600 3900
+Wire Wire Line
+	7600 3900 8600 3900
+Connection ~ 8600 3900
+Wire Wire Line
+	8600 3900 9600 3900
+Connection ~ 9600 3900
+Wire Wire Line
+	9600 3900 10600 3900
+Wire Wire Line
+	1000 5500 2000 5500
+Connection ~ 2000 5500
+Wire Wire Line
+	2000 5500 3000 5500
+Connection ~ 3000 5500
+Wire Wire Line
+	3000 5500 4000 5500
+Connection ~ 4000 5500
+Wire Wire Line
+	4000 5500 5000 5500
+Connection ~ 5000 5500
+Wire Wire Line
+	5000 5500 6000 5500
+Connection ~ 6000 5500
+Wire Wire Line
+	6000 5500 7000 5500
+Wire Wire Line
+	7000 6300 6000 6300
+Connection ~ 2000 6300
+Wire Wire Line
+	2000 6300 1000 6300
+Connection ~ 3000 6300
+Wire Wire Line
+	3000 6300 2000 6300
+Connection ~ 4000 6300
+Wire Wire Line
+	4000 6300 3000 6300
+Connection ~ 5000 6300
+Wire Wire Line
+	5000 6300 4000 6300
+Connection ~ 6000 6300
+Wire Wire Line
+	6000 6300 5000 6300
+Wire Wire Line
+	1000 7100 2000 7100
+Connection ~ 2000 7100
+Wire Wire Line
+	2000 7100 3000 7100
+Connection ~ 3000 7100
+Wire Wire Line
+	3000 7100 4000 7100
+Connection ~ 4000 7100
+Wire Wire Line
+	4000 7100 5000 7100
+$Comp
+L kbd:SW_PUSH SW36
+U 1 1 5E535868
+P 5700 6795
+F 0 "SW36" H 5700 7050 50  0000 C CNN
+F 1 "KEY_SW" H 5700 6959 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-2U" H 5700 6795 50  0001 C CNN
+F 3 "" H 5700 6795 50  0000 C CNN
+	1    5700 6795
+	1    0    0    -1  
+$EndComp
+$Comp
+L First_keyboard30-rescue:DIODE-Simulation_SPICE D35
+U 1 1 5E535870
+P 6000 6945
+F 0 "D35" V 5954 7025 50  0000 L CNN
+F 1 "DIODE" V 6045 7025 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 6000 6945 50  0001 C CNN
+F 3 "~" H 6000 6945 50  0001 C CNN
+F 4 "Y" H 6000 6945 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6000 6945 50  0001 L CNN "Spice_Primitive"
+	1    6000 6945
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 6000 5400 6795
+Connection ~ 5400 6000
+Wire Wire Line
+	5000 7100 6000 7100
+Wire Wire Line
+	6000 7100 6000 7095
+Connection ~ 5000 7100
+$EndSCHEMATC
