@@ -55,8 +55,8 @@
     (mod_edge_width 0.12)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 2.2 2.2)
-    (pad_drill 2.2)
+    (pad_size 1.524 1.524)
+    (pad_drill 0.8128)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
@@ -327,7 +327,7 @@
       (xy 66.843913 19.446875)) (layer B.SilkS) (width 0.01))
   )
 
-  (module kbd:ProMicro_v3 (layer B.Cu) (tedit 5CB5FEF5) (tstamp 5E537D65)
+  (module kbd:ProMicro_v3 (layer B.Cu) (tedit 5E5759CA) (tstamp 5E537D65)
     (at 52.788 107.2986 270)
     (path /5DFB19D6)
     (fp_text reference U1 (at 0 5 180) (layer B.SilkS) hide
