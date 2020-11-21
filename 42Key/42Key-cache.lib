@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Simulation_SPICE_DIODE
+# 42Key-rescue_DIODE-Simulation_SPICE
 #
-DEF Simulation_SPICE_DIODE D 0 40 N N 1 F N
+DEF 42Key-rescue_DIODE-Simulation_SPICE D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Simulation_SPICE_DIODE" 0 -100 50 H V C CNN
+F1 "42Key-rescue_DIODE-Simulation_SPICE" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
