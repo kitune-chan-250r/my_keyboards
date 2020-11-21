@@ -288,7 +288,7 @@ F 3 "" H 10300 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFF9967
 P 10600 2300
 F 0 "D?" V 10554 2380 50  0000 L CNN
@@ -301,7 +301,7 @@ F 5 "V" H 10600 2300 50  0001 L CNN "Spice_Primitive"
 	0    1    1    0   
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFF0D75
 P 10600 1650
 F 0 "D?" V 10554 1730 50  0000 L CNN
@@ -325,7 +325,7 @@ F 3 "" H 10300 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFF0D67
 P 10600 2950
 F 0 "D?" V 10554 3030 50  0000 L CNN
@@ -349,7 +349,7 @@ F 3 "" H 7300 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFF0D59
 P 7600 4300
 F 0 "D?" V 7554 4380 50  0000 L CNN
@@ -373,7 +373,7 @@ F 3 "" H 6305 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFF0D4B
 P 6605 4300
 F 0 "D?" V 6559 4380 50  0000 L CNN
@@ -397,7 +397,7 @@ F 3 "" H 5300 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFF0D3D
 P 5600 4300
 F 0 "D?" V 5554 4380 50  0000 L CNN
@@ -421,7 +421,7 @@ F 3 "" H 4300 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFF0D2F
 P 4600 4300
 F 0 "D?" V 4554 4380 50  0000 L CNN
@@ -456,7 +456,7 @@ F 3 "" H 8305 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFE891B
 P 8605 2950
 F 0 "D?" V 8559 3030 50  0000 L CNN
@@ -480,7 +480,7 @@ F 3 "" H 7300 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFE890D
 P 7600 2950
 F 0 "D?" V 7554 3030 50  0000 L CNN
@@ -504,7 +504,7 @@ F 3 "" H 6305 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFE88FF
 P 6605 2950
 F 0 "D?" V 6559 3030 50  0000 L CNN
@@ -528,7 +528,7 @@ F 3 "" H 5300 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFE88F1
 P 5600 2950
 F 0 "D?" V 5554 3030 50  0000 L CNN
@@ -552,7 +552,7 @@ F 3 "" H 4300 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFE88E3
 P 4600 2950
 F 0 "D?" V 4554 3030 50  0000 L CNN
@@ -576,7 +576,7 @@ F 3 "" H 9300 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFDC36D
 P 9600 2300
 F 0 "D?" V 9554 2380 50  0000 L CNN
@@ -600,7 +600,7 @@ F 3 "" H 8305 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFDC35F
 P 8605 2300
 F 0 "D?" V 8559 2380 50  0000 L CNN
@@ -624,7 +624,7 @@ F 3 "" H 7300 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFDC351
 P 7600 2300
 F 0 "D?" V 7554 2380 50  0000 L CNN
@@ -648,7 +648,7 @@ F 3 "" H 6305 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFDC343
 P 6605 2300
 F 0 "D?" V 6559 2380 50  0000 L CNN
@@ -672,7 +672,7 @@ F 3 "" H 5300 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFDC335
 P 5600 2300
 F 0 "D?" V 5554 2380 50  0000 L CNN
@@ -696,7 +696,7 @@ F 3 "" H 4300 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFDC327
 P 4600 2300
 F 0 "D?" V 4554 2380 50  0000 L CNN
@@ -709,7 +709,7 @@ F 5 "V" H 4600 2300 50  0001 L CNN "Spice_Primitive"
 	0    1    1    0   
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFC8DDB
 P 9600 1650
 F 0 "D?" V 9554 1730 50  0000 L CNN
@@ -722,7 +722,7 @@ F 5 "V" H 9600 1650 50  0001 L CNN "Spice_Primitive"
 	0    1    1    0   
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFC74B5
 P 8605 1650
 F 0 "D?" V 8559 1730 50  0000 L CNN
@@ -735,7 +735,7 @@ F 5 "V" H 8605 1650 50  0001 L CNN "Spice_Primitive"
 	0    1    1    0   
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFC6B5B
 P 7600 1650
 F 0 "D?" V 7554 1730 50  0000 L CNN
@@ -748,7 +748,7 @@ F 5 "V" H 7600 1650 50  0001 L CNN "Spice_Primitive"
 	0    1    1    0   
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFC5D99
 P 6605 1650
 F 0 "D?" V 6559 1730 50  0000 L CNN
@@ -761,7 +761,7 @@ F 5 "V" H 6605 1650 50  0001 L CNN "Spice_Primitive"
 	0    1    1    0   
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFC388B
 P 5600 1650
 F 0 "D?" V 5554 1730 50  0000 L CNN
@@ -774,7 +774,7 @@ F 5 "V" H 5600 1650 50  0001 L CNN "Spice_Primitive"
 	0    1    1    0   
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFBC4C1
 P 4600 1650
 F 0 "D?" V 4554 1730 50  0000 L CNN
@@ -798,7 +798,7 @@ F 3 "" H 4300 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFF992F
 P 5595 3650
 F 0 "D?" V 5549 3730 50  0000 L CNN
@@ -822,7 +822,7 @@ F 3 "" H 5300 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFF993D
 P 6600 3650
 F 0 "D?" V 6554 3730 50  0000 L CNN
@@ -846,7 +846,7 @@ F 3 "" H 6305 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFF994B
 P 7595 3650
 F 0 "D?" V 7549 3730 50  0000 L CNN
@@ -870,7 +870,7 @@ F 3 "" H 7300 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5EFF9959
 P 8605 3650
 F 0 "D?" V 8559 3730 50  0000 L CNN
@@ -894,7 +894,7 @@ F 3 "" H 8305 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5F002211
 P 9605 3650
 F 0 "D?" V 9559 3730 50  0000 L CNN
@@ -918,7 +918,7 @@ F 3 "" H 9305 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5F166C86
 P 9600 2950
 F 0 "D?" V 9554 3030 50  0000 L CNN
@@ -931,7 +931,7 @@ F 5 "V" H 9600 2950 50  0001 L CNN "Spice_Primitive"
 	0    1    1    0   
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D?
+L tron_clone-rescue:DIODE-Simulation_SPICE D?
 U 1 1 5F1674AD
 P 4600 3650
 F 0 "D?" V 4554 3730 50  0000 L CNN
