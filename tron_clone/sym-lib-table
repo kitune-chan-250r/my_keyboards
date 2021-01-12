@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name tron_clone-rescue)(type Legacy)(uri ${KIPRJMOD}/tron_clone-rescue.lib)(options "")(descr ""))
+)
